@@ -1,0 +1,13 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+
+
+
+ CREATE VIEW [prodcopy].[vw_Contact] AS 
+						---- CREATED BY PROCESS ON Jul  7 2017  2:57PM
+						SELECT * FROM ProdCopy.Contact WHERE 1=1 
+
+
+GO
